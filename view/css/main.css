@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffccf9;
+}
+
+h1, h2 {
+    color: #6a1b9a;
+}
+
+/* Links */
+a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-actions{
+    width: 400px; 
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] select{
+    
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #9b59b6;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8e44ad;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.categories-table {
+    width: 50%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.categories-table th,
+.categories-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+th {
+    background-color: #ffccf9;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 20px 10px;
+    }
+
+    input[type="text"],
+    input[type="submit"],
+    select {
+        width: auto;
+        margin-bottom: 10px;
+    }
+}
